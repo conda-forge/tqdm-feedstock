@@ -7,7 +7,7 @@ package:
 source:
   fn: tqdm-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/tqdm/tqdm-{{ version }}.tar.gz
-  md5: 63dcfa4910aa10ed7bf5c6e4a961ad7f
+  md5: 81a59bec1dbc03fd937510c8a574b5e8
 
 build:
   entry_points:
