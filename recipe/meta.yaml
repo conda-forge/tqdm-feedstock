@@ -1,4 +1,4 @@
-{% set version = "4.7.2" %}
+{% set version = "4.7.4" %}
 
 package:
   name: tqdm
