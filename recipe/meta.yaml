@@ -1,13 +1,14 @@
-{% set version = "4.8.2" %}
+{% set name = "tqdm" %}
+{% set version = "4.8.4" %}
 
 package:
-  name: tqdm
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: tqdm-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/t/tqdm/tqdm-{{ version }}.tar.gz
-  sha256: d86d92ef89797ff946c87a4ebfc5071bb76c2019e4c86e6f24b46aa819180825
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bab05f8bb6efd2702ab6c532e5e6a758a66c0d2f443e09784b73e4066e6b3a37
 
 build:
   entry_points:
