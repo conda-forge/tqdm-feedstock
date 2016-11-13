@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/tqdm/tqdm
-  license: Mozilla Public License 2.0 (MPL 2.0) or MIT License
+  license: MPLv2.0, MIT
   summary: 'A Fast, Extensible Progress Meter'
 
 extra:
