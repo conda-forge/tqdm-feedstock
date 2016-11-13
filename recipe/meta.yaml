@@ -1,5 +1,5 @@
 {% set name = "tqdm" %}
-{% set version = "4.9.0" %}
+{% set version = "4.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: acdfb7d746a76f742d38f4b473056b9e6fa92ddea12d7e0dafd1f537645e0c84
+  sha256: 1690ef8d0e06366ad7c8767b9a6408f116a16ff3c0972e05d8c3ac1c2411f0bf
 
 build:
   entry_points:
