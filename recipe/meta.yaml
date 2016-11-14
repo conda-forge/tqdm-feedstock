@@ -36,6 +36,7 @@ test:
 about:
   home: https://github.com/tqdm/tqdm
   license: MPLv2.0, MIT
+  license_file: LICENCE
   summary: 'A Fast, Extensible Progress Meter'
 
 extra:
