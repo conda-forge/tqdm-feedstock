@@ -3,7 +3,7 @@ About tqdm
 
 Home: https://github.com/tqdm/tqdm
 
-Package license: Mozilla Public License 2.0 (MPL 2.0) or MIT License
+Package license: MPLv2.0, MIT
 
 Feedstock license: BSD 3-Clause
 
