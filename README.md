@@ -11,6 +11,18 @@ Summary: A Fast, Extensible Progress Meter
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tqdm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tqdm-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/tqdm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tqdm-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tqdm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tqdm-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tqdm/badges/version.svg)](https://anaconda.org/conda-forge/tqdm)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tqdm/badges/downloads.svg)](https://anaconda.org/conda-forge/tqdm)
+
 Installing tqdm
 ===============
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tqdm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tqdm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/tqdm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tqdm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tqdm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tqdm-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tqdm/badges/version.svg)](https://anaconda.org/conda-forge/tqdm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tqdm/badges/downloads.svg)](https://anaconda.org/conda-forge/tqdm)
 
 
 Updating tqdm-feedstock
