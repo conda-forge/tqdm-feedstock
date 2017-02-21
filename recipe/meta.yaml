@@ -1,20 +1,24 @@
 {% set name = "tqdm" %}
 {% set version = "4.11.2" %}
+{% set compress_type = "tar.gz" %}
+{% set build_num = "0" %}
+{% set hash_type = "sha256" %}
+{% set hash_val = "14baa7a9ea7723d46f60de5f8c6f20e840baa7e3e193bf0d9ec5fe9103a15254" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 14baa7a9ea7723d46f60de5f8c6f20e840baa7e3e193bf0d9ec5fe9103a15254
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash_val }}
 
 build:
   entry_points:
     - tqdm=tqdm._main:main
 
-  number: 0
+  number: {{ build_num }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -36,8 +40,10 @@ test:
 about:
   home: https://github.com/tqdm/tqdm
   license: MPLv2.0, MIT
+  license_family: MIT
   license_file: LICENCE
   summary: 'A Fast, Extensible Progress Meter'
+  dev_url: https://github.com/tqdm/tqdm
 
 extra:
   recipe-maintainers:
