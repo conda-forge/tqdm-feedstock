@@ -1,7 +1,7 @@
 About tqdm
 ==========
 
-Home: https://github.com/tqdm/tqdm
+Home: https://pypi.python.org/pypi/tqdm
 
 Package license: MPLv2.0, MIT
 
