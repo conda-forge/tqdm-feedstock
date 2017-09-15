@@ -14,9 +14,7 @@ Summary: A Fast, Extensible Progress Meter
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tqdm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tqdm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/tqdm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tqdm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tqdm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tqdm-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/tqdm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tqdm-feedstock)
 
 Current release info
 ====================
