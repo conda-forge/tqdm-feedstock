@@ -1,8 +1,8 @@
 {% set name = "tqdm" %}
-{% set version = "4.19.4" %}
+{% set version = "4.19.5" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "7ca803c2ea268c6bdb541e2dac74a3af23cf4bf7b4132a6a78926d255f8c8df1" %}
+{% set hash = "df32e6f127dc0ccbc675eadb33f749abbcb8f174c5cb9ec49c0cdb73aa737377" %}
 {% set build = 0 %}
 
 package:
