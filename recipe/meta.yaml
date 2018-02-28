@@ -1,31 +1,24 @@
-{% set name = "tqdm" %}
-{% set version = "4.19.5" %}
-{% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "df32e6f127dc0ccbc675eadb33f749abbcb8f174c5cb9ec49c0cdb73aa737377" %}
-{% set build = 0 %}
+{% set version = "4.19.6" %}
 
 package:
-  name: {{ name|lower }}
+  name: tqdm
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  url: https://pypi.io/packages/source/t/tqdm/tqdm-{{ version }}.tar.gz
+  sha256: 5ec0d4442358e55cdb4a0471d04c6c831518fd8837f259db5537d90feab380df
 
 build:
   noarch: python
   entry_points:
     - tqdm = tqdm._main:main
-  number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
-
+    - pip
   run:
     - python
 
