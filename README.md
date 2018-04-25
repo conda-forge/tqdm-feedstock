@@ -14,12 +14,15 @@ Summary: A Fast, Extensible Progress Meter
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/tqdm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tqdm-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/tqdm-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/tqdm-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tqdm/badges/version.svg)](https://anaconda.org/conda-forge/tqdm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tqdm/badges/downloads.svg)](https://anaconda.org/conda-forge/tqdm)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-tqdm-green.svg)](https://anaconda.org/conda-forge/tqdm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/tqdm.svg)](https://anaconda.org/conda-forge/tqdm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/tqdm.svg)](https://anaconda.org/conda-forge/tqdm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/tqdm.svg)](https://anaconda.org/conda-forge/tqdm) |
 
 Installing tqdm
 ===============
