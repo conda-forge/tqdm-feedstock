@@ -12,11 +12,11 @@ build:
   noarch: python
   entry_points:
     - tqdm = tqdm._main:main
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
