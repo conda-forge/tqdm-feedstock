@@ -118,6 +118,5 @@ Feedstock Maintainers
 
 * [@casperdcl](https://github.com/casperdcl/)
 * [@ericdill](https://github.com/ericdill/)
-* [@lrq3000](https://github.com/lrq3000/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
 
