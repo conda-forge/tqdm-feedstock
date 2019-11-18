@@ -9,13 +9,10 @@ source:
   sha256: c1d677f3a85fa291b34bdf8f770f877119b9754b32673699653556f85e2c2f13
 
 build:
-  # This package can be made noarch again once 
-  # conda-standalone is built for aarch64
-  # https://github.com/conda-forge/miniforge/pull/2
-  # noarch: python
+  noarch: python
   entry_points:
     - tqdm = tqdm._main:main
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
