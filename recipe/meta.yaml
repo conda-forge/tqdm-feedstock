@@ -35,7 +35,7 @@ about:
   license: MPLv2.0, MIT
   license_family: MIT
   license_file: LICENCE
-  summary: 'A Fast, Extensible Progress Meter'
+  summary: A Fast, Extensible Progress Meter
   dev_url: https://github.com/tqdm/tqdm
   doc_url: https://github.com/tqdm/tqdm
 
