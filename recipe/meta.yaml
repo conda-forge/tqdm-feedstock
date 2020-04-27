@@ -11,8 +11,8 @@ source:
 build:
   noarch: python
   entry_points:
-    - tqdm = tqdm._main:main
-  number: 0
+    - tqdm = tqdm.cli:main
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
