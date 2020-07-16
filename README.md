@@ -5,7 +5,7 @@ Home: https://pypi.python.org/pypi/tqdm
 
 Package license: MPLv2.0, MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Fast, Extensible Progress Meter
 
