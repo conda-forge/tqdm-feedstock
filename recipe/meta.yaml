@@ -30,6 +30,9 @@ test:
     - pip check
     - tqdm --help
     - tqdm -v
+  
+  requires:
+    - pip
 
 about:
   home: https://pypi.python.org/pypi/tqdm
