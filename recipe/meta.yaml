@@ -12,21 +12,27 @@ build:
   noarch: python
   entry_points:
     - tqdm = tqdm.cli:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - python
     - pip
+    - setuptools_scm >=3.4
+    - toml
   run:
     - python
 
 test:
+  requires:
+    - pip
+
   imports:
     - tqdm
 
   commands:
+    - pip check
     - tqdm --help
     - tqdm -v
 
