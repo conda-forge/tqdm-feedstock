@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=2.7
     - pip
     - setuptools_scm >=3.4
     - toml
   run:
-    - python
+    - python >=2.7
 
 test:
   requires:
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://pypi.python.org/pypi/tqdm
-  license: MPLv2.0, MIT
+  license: MPL-2.0 or MIT
   license_family: MIT
   license_file: LICENCE
   summary: A Fast, Extensible Progress Meter
