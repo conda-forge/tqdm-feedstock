@@ -12,27 +12,33 @@ build:
   noarch: python
   entry_points:
     - tqdm = tqdm.cli:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python
+    - python >=2.7
     - pip
+    - setuptools_scm >=3.4
+    - toml
   run:
-    - python
+    - python >=2.7
 
 test:
+  requires:
+    - pip
+
   imports:
     - tqdm
 
   commands:
+    - pip check
     - tqdm --help
     - tqdm -v
 
 about:
   home: https://pypi.python.org/pypi/tqdm
-  license: MPLv2.0, MIT
+  license: MPL-2.0 or MIT
   license_family: MIT
   license_file: LICENCE
   summary: A Fast, Extensible Progress Meter
