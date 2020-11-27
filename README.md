@@ -3,7 +3,7 @@ About tqdm
 
 Home: https://pypi.python.org/pypi/tqdm
 
-Package license: MPLv2.0, MIT
+Package license: MPL-2.0 or MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tqdm-feedstock/blob/master/LICENSE.txt)
 
