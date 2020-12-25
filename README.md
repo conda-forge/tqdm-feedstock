@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tqdm-feedstock/
 
 Summary: A Fast, Extensible Progress Meter
 
-Development: https://github.com/tqdm/tqdm
+Development: https://tqdm.github.io/docs/tqdm
 
-Documentation: https://github.com/tqdm/tqdm
+Documentation: https://github.com/tqdm/tqdm#tqdm
 
 Current build status
 ====================
