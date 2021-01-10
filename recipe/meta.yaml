@@ -28,6 +28,7 @@ test:
   requires:
     - pip
     - pytest
+    - pytest-timeout
     - pytest-asyncio  # [py>=37]
   source_files:
     - tests
