@@ -12,7 +12,7 @@ build:
   noarch: python
   entry_points:
     - tqdm = tqdm.cli:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -23,6 +23,7 @@ requirements:
     - toml
   run:
     - python >=2.7
+    - colorama  # [win]
 
 test:
   requires:
