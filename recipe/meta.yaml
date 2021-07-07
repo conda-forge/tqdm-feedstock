@@ -23,7 +23,7 @@ requirements:
     - toml
   run:
     - python >=2.7
-    - colorama  # [win]
+    - colorama
 
 test:
   requires:
