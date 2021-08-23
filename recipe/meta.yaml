@@ -1,4 +1,4 @@
-{% set version = "4.62.1" %}
+{% set version = "4.62.2" %}
 
 package:
   name: tqdm
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/tqdm/tqdm-{{ version }}.tar.gz
-  sha256: 35540feeaca9ac40c304e916729e6b78045cbbeccd3e941b2868f09306798ac9
+  sha256: a4d6d112e507ef98513ac119ead1159d286deab17dffedd96921412c2d236ff5
 
 build:
   noarch: python
