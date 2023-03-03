@@ -1,11 +1,11 @@
-About tqdm
-==========
+About tqdm-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tqdm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.python.org/pypi/tqdm
 
 Package license: MPL-2.0 or MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tqdm-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Fast, Extensible Progress Meter
 
