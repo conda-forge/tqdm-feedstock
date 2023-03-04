@@ -12,17 +12,17 @@ build:
   noarch: python
   entry_points:
     - tqdm = tqdm.cli:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.7
     - pip
     - setuptools_scm >=3.4
     - toml
   run:
-    - python >=2.7
+    - python >=3.7
     - colorama
 
 test:
@@ -57,3 +57,4 @@ extra:
   recipe-maintainers:
     - casperdcl
     - pmlandwehr
+    - ericdill
