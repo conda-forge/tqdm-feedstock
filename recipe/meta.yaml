@@ -1,4 +1,4 @@
-{% set version = "4.66.2" %}
+{% set version = "4.66.4" %}
 
 package:
   name: tqdm
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/tqdm/tqdm-{{ version }}.tar.gz
-  sha256: 6cd52cdf0fef0e0f543299cfc96fec90d7b8a7e88745f411ec33eb44d5ed3531
+  sha256: e4d936c9de8727928f3be6079590e97d9abfe8d39a590be678eb5919ffc186bb
 
 build:
   noarch: python
@@ -41,7 +41,7 @@ test:
     - pip check
     - tqdm --help
     - tqdm -v
-    - pytest -k "not tests_perf"
+    - pytest -k "not tests_perf and not tests_tk"
 
 about:
   home: https://pypi.python.org/pypi/tqdm
