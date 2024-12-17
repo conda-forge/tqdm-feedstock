@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@casperdcl](https://github.com/casperdcl/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
