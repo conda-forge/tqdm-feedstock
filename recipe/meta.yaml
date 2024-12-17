@@ -12,17 +12,18 @@ build:
   noarch: python
   entry_points:
     - tqdm = tqdm.cli:main
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
+    - setuptools
     - setuptools_scm >=3.4
     - toml
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - colorama
 
 test:
@@ -31,7 +32,8 @@ test:
     - pytest
     - pytest-cov
     - pytest-timeout
-    - pytest-asyncio  # [py>=37]
+    - pytest-asyncio >=0.24
+    - python {{ python_min }}
   source_files:
     - tests
     - pyproject.toml
@@ -56,3 +58,4 @@ extra:
   recipe-maintainers:
     - casperdcl
     - pmlandwehr
+    - synapticarbors
