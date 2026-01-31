@@ -11,7 +11,7 @@ Summary: A Fast, Extensible Progress Meter
 
 Development: https://github.com/tqdm/tqdm
 
-Documentation: https://tqdm.github.io
+Documentation: https://tqdm.github.io/
 
 Current build status
 ====================
