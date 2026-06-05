@@ -1,18 +1,19 @@
 schema_version: 1
 
 context:
+  name: tqdm
   version: "4.68.0"
 
 package:
-  name: tqdm
+  name: ${{ name }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/tqdm/tqdm-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
   sha256: c627124266fe7904cabb70e88a940d75a06b889a0b11680307a67c18ce094f19
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-build-isolation --no-deps
   python:
@@ -34,13 +35,17 @@ requirements:
         - __win
     - if: unix
       then: __unix
+  run_constraints:
+    - envwrap >=0.2
 
 tests:
   - python:
       imports:
         - tqdm
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - files:
       source:
         - tests
