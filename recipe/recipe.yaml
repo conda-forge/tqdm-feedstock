@@ -35,6 +35,8 @@ requirements:
         - __win
     - if: unix
       then: __unix
+  run_constraints:
+    - envwrap >=0.2
 
 tests:
   - python:
