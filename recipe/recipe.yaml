@@ -1,19 +1,18 @@
 schema_version: 1
 
 context:
-  name: tqdm
   version: "4.68.2"
 
 package:
-  name: ${{ name }}
+  name: tqdm
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/t/tqdm/tqdm-${{ version }}.tar.gz
   sha256: 89c230e8dbc67c7615c142487111222f878c77427ea09549960f62389e258add
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-build-isolation --no-deps
   python:
@@ -24,7 +23,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - setuptools
+    - setuptools >=42
     - setuptools_scm >=3.4
     - toml
   run:
@@ -37,6 +36,7 @@ requirements:
       then: __unix
   run_constraints:
     - envwrap >=0.2
+    - ipywidgets>=6.0
 
 tests:
   - python:
@@ -52,7 +52,7 @@ tests:
         - pyproject.toml
     requirements:
       run:
-        - pytest
+        - pytest >=6.0
         - pytest-cov
         - pytest-timeout
         - pytest-asyncio >=0.24
