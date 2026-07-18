@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "4.68.4"
+  version: "4.69.0"
 
 package:
   name: tqdm
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tqdm/tqdm-${{ version }}.tar.gz
-  sha256: 19829c9673638f2a0b8617da4cdcb927e831cd88bcfcb6e78d42a4d1af131520
+  sha256: 700c5e85dcd5f009dd6222588a29180a193a748247a5d855b4d67db93d79a53b
 
 build:
   number: 0
